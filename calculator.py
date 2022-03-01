@@ -38,25 +38,34 @@ print("Please select operation -\n" \
 # Take input from the user 
 select = int(input("Select operations form 1, 2, 3, 4, 5, 6 :"))
   
-number_1 = int(input("Enter first number: "))
-number_2 = int(input("Enter second number: "))
   
 if select == 1:
+    number_1 = int(input("Enter first number: "))
+    number_2 = int(input("Enter second number: "))  
     print(number_1, "+", number_2, "=", add(number_1, number_2))
   
 elif select == 2:
+    number_1 = int(input("Enter first number: "))
+    number_2 = int(input("Enter second number: "))
     print(number_1, "-", number_2, "=", subtract(number_1, number_2))
   
 elif select == 3:
+    number_1 = int(input("Enter first number: "))
+    number_2 = int(input("Enter second number: "))
     print(number_1, "*", number_2, "=", multiply(number_1, number_2))
   
 elif select == 4:
+    number_1 = int(input("Enter first number: "))
+    number_2 = int(input("Enter second number: "))
     print(number_1, "/", number_2, "=", divide(number_1, number_2))
 
 elif select == 5:
+    number_1 = int(input("Enter first number: "))
+    number_2 = int(input("Enter second number: "))
     print(number_1, "^", number_2, "=",powerOf(number_1, number_2)) 
 
 elif select == 6:
+    number_1 = int(input("Enter first number: "))
     print(number_1, "square root is", square(number_1))
     
 else:
