@@ -9,32 +9,38 @@ from calculator import square
 
 
 
-
-
 class TestCalculator(unittest.TestCase):
     
     def test_calculator_add(self):
-        self.assertEqual(add(1,2),3)
+        result=add(1,2)
+        self.assertEqual(result,3)
         
     def test_calculator_subtract(self):
-        self.assertEqual(subtract(2,1),1)
+        result=subtract(2,1)
+        self.assertEqual(result,1)
     
     def test_calculator_add(self):
-        self.assertEqual(multiply(5,6),36)
+        result=multiply(5,6)
+        self.assertEqual(result,30)
     
     def test_calculator_add(self):
-        self.assertEqual(divide(81,9),9)
+        result=divide(81,9)
+        self.assertEqual(result,9)
     
     def test_calculator_powerOff(self):
-        self.assertEqual(powerOf(2,10),1024)
+        result=powerOf(2,10)
+        self.assertEqual(result,1024)
     
     def test_calculator_add(self):
-        self.assertEqual(square(144),12)
+        result=square(144)
+        self.assertEqual(result,12)
+    
+   
         
         
         
 if __main__ =='__main__':
-    unittest.main()
+   unittest.main()
 
     
     

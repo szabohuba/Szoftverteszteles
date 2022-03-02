@@ -1,4 +1,5 @@
-import math 
+import math
+from turtle import clear 
 
 # Function to add two numbers 
 def add(num1, num2):
@@ -29,7 +30,6 @@ def square(num1):
 
 while True:
         print("\n")
-        print("\n")
         print("Please select operation:\n" \
                 "1. Add\n" \
                 "2. Subtract\n" \
@@ -40,12 +40,12 @@ while True:
         
         
         # Take input from the user 
-        select = int(input("Select operations form 1, 2, 3, 4, 5, 6 :"))
-        
+        select = input("Select operations form 1, 2, 3, 4, 5, 6 :")
         
         if select == 1:
             number_1 = int(input("Enter first number: "))
             number_2 = int(input("Enter second number: "))  
+            
             print(number_1, "+", number_2, "=", add(number_1, number_2))
         
         elif select == 2:
