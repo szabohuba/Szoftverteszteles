@@ -15,9 +15,17 @@ class TestCalculator(unittest.TestCase):
         result=add(1,2)
         self.assertEqual(result,3)
         
+    def test_calculator_add(self):
+        result=add(32131,-2231)
+        self.assertEqual(result,29900)
+        
     def test_calculator_subtract(self):
         result=subtract(2,1)
         self.assertEqual(result,1)
+        
+    def test_calculator_subtract(self):
+            result=subtract(32131,2231)
+            self.assertEqual(result,29900)
     
     def test_calculator_add(self):
         result=multiply(5,6)
