@@ -27,8 +27,9 @@ def square(num1):
     return math.sqrt(num1)
 
 
-
-while True:
+def main():
+    aux=1
+    while aux == 1:
         print("\n")
         print("Please select operation:\n" \
                 "1. Add\n" \
@@ -79,5 +80,9 @@ while True:
             
         else:
             print("Invalid input")
-       
+            
+        print("You want another calculation, if you want type 1 else 0")
+        aux=int(input("Enter next moove: "))
     
+    
+main()
