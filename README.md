@@ -1,2 +1,2 @@
 # Szoftverteszteles
-Tis project is a computer class project, which help us understand the basics of software testing.
+This project is a computer science class project, which help us to understand the basics of software testing.
