@@ -20,8 +20,12 @@ def divide(num1, num2):
     else:
         print("Nem lehet 0-val osztani!")
 
+
 # This function takes x to the power of y
 def powerOf(num1,num2):
     aux=pow(num1,num2)
     return aux
 
+# This function returns the lower number value
+def minimum(x, y):
+    return x if x <= y else y
