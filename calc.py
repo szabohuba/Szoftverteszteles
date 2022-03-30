@@ -27,5 +27,5 @@ def powerOf(num1,num2):
     return aux
 
 # This function returns the lower number value
-def minimum(x, y):
-    return x if x <= y else y
+def minimum(num1, num2):
+    return num1 if num1 <= num2 else num2
