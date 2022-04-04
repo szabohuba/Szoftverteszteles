@@ -29,3 +29,7 @@ def powerOf(num1,num2):
 # This function returns the lower number value
 def minimum(num1, num2):
     return num1 if num1 <= num2 else num2
+
+# This function returns the maximum number value
+def maximum(num1, num2):
+    return num1 if num1 >= num2 else num2

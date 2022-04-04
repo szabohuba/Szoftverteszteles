@@ -28,10 +28,15 @@ def test_calc_multiply():
     assert output == 1024
 
 
-
-
 def test_calc_divide():
     output = calc.divide(1, 1)
     assert output == 1
  
+def test_calc_maximum():
+    output = calc.maximum(1200,32111)
+    assert output == 32111
 
+
+def test_calc_minimum():
+    output = calc.minimum(1200,32111)
+    assert output == 1200
