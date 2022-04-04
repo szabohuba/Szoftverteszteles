@@ -23,7 +23,7 @@ def test_calc_divide():
     assert output == 2
 
 
-def test_calc_multiply():
+def test_calc_powerOf():
     output = calc.powerOf(2, 10)
     assert output == 1024
 
