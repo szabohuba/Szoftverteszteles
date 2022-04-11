@@ -1,4 +1,5 @@
 import calc
+import sys
 
 
 
@@ -17,7 +18,6 @@ def test_calc_multiply():
     assert output == 6
 
     
-
 def test_calc_divide():
     output = calc.divide(6, 3)
     assert output == 2
@@ -33,8 +33,8 @@ def test_calc_divide():
     assert output == 1
  
 def test_calc_maximum():
-    output = calc.maximum(1200,32111)
-    assert output == 32111
+    output = calc.maximum(sys.maxsize+1,32111)
+    assert output == sys.maxsize+1
 
 
 def test_calc_minimum():
