@@ -40,3 +40,4 @@ def test_calc_maximum():
 def test_calc_minimum():
     output = calc.minimum(1200,32111)
     assert output == 1200
+    
