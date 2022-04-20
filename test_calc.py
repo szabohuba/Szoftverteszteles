@@ -29,7 +29,7 @@ def test_calc_powerOf():
 
 
 def test_calc_divide():
-    output = calc.divide(1, 1)
+    output = calc.divide(1, 0)
     assert output == 1
  
 def test_calc_maximum():
