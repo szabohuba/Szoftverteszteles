@@ -24,12 +24,12 @@ def test_calc_divide():
 
 
 def test_calc_powerOf():
-    output = calc.powerOf(2, 10)
+    output = calc.powerOf(2, 0)
     assert output == 1024
 
 
 def test_calc_divide():
-    output = calc.divide(1, 0)
+    output = calc.divide(1, 1)
     assert output == 1
  
 def test_calc_maximum():
